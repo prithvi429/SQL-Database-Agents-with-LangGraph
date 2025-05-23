@@ -1,0 +1,7 @@
+# Clear tables before inserting to avoid UNIQUE constraint errors
+cursor.execute("DELETE FROM USERS;")
+cursor.execute("DELETE FROM DEPARTMENTS;")
+cursor.execute("DELETE FROM EMPLOYEES_DEPARTMENTS;")
+cursor.execute("DELETE FROM PROJECTS;")
+cursor.execute("DELETE FROM ASSIGNMENTS;")
+cursor.execute("DELETE FROM ATTENDANCE;")
