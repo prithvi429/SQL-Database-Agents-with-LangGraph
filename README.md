@@ -9,6 +9,7 @@ This project demonstrates how to build a SQL database agent using LangGraph and 
 - LLM-powered SQL query generation and validation
 - Tool-based execution and error handling
 - Visual workflow diagram
+- Model structure diagram for database schema
 
 ## Project Structure
 - `SQL_agent.ipynb`: Main notebook with all code, workflow, and documentation
@@ -25,7 +26,7 @@ This project demonstrates how to build a SQL database agent using LangGraph and 
    - Create and populate the database
    - Set up the agent workflow
    - Interact with the agent for SQL tasks
-   - Visualize the workflow
+   - Visualize the workflow and schema
 
 ## Workflow Overview
 The agent follows this process:
